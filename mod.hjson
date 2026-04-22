@@ -1,0 +1,8 @@
+{
+  name: "cheetah 01"
+  displayName: "cheetah 01"
+  description: "warriors cheetahs. Each core you destroy unlocks a new block or unit to play with. Core destruction breaks."
+  author: "keven"
+  version: "1.0"
+  minGameVersion: 145
+}
