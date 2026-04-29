@@ -41,7 +41,7 @@ weapons: [
                 alwaysShooting: true
 
 shoot: {
-firstShotDelay: 1700
+firstShotDelay: 2600
 }
 
                 
