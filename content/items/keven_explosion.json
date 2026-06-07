@@ -5,7 +5,7 @@
   "description": "emerald. It's a very rare item, so pay attention to it. You'll find two emerald inside an enemy and one emerald inside an enemy block.",
   "transitionFrames": 0
     "frames": 4,
-  "frameTime": 16,
+  "frameTime": 120,
   "color": D9D6BE 
       alwaysUnlocked: true
 }
