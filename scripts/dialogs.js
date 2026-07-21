@@ -98,7 +98,7 @@ function showMyDialog() {
   // قم بتغيير الاستدعاء القديم إلى اسم صورتك الجديدة مع بادئة اسم المود:
   d.cont.image(Core.atlas.find("cheetah-01-welcome_logo")).size(600, 300).pad(10).row();
   
-  d.cont.add("welcome to cheetah mod:)").row();
+  d.cont.add("welcome to cheetah mod. (fhgdhgvhggvfgg.github.io/Cpe-cheetah-/warehouse/index.html) this is my bage for all news").row();
   d.buttons.button("bye", () => d.hide()).size(210, 64);
   d.show();
 }
