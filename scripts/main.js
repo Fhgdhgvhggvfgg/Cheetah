@@ -121,11 +121,7 @@ Time.run(60, () => {
         Vars.ui.menuGroup.fill(Cons(t => {           
 t.clear(); // تنظيف الطبقات القديمة 
             t.left().bottom(); // نقطة الصفر أسفل يسار
-            
-let bPho4 = new Button(Styles.none);
-bPho4.button(new TextureRegionDrawable(Icon.info), () => { menuWelcome(); });
-bPho4.add("setting").padLeft(6); 
-t.add(bPho4).size(160, 50).padTop(-120).padLeft(50);
+           
             
             // --- المتغيرات الخاصة بك ---
             let widthjeX = screenW * 11; 
@@ -144,7 +140,17 @@ t.add(bPho4).size(160, 50).padTop(-120).padLeft(50);
                                    
         }));
 
+        Vars.ui.menuGroup.fill(Cons(t => {           
+t.clear(); // تنظيف الطبقات القديمة 
+            t.left().bottom(); // نقطة الصفر أسفل يسار
+            
+            let bPho4 = new Button(Styles.none);
+bPho4.button(new TextureRegionDrawable(Icon.info), () => { menuWelcome(); });
+bPho4.add("setting").padLeft(6); 
+t.add(bPho4).size(160, 50).padTop(-120).padLeft(50);
 
+                                   
+        }));
 
 
 
